@@ -3,8 +3,9 @@ agent any
 stages {
 stage ( 'Maven Build ') { 
 steps { 
-   dir ( 'Amazon' )
+   dir ( 'Amazon' ) {
 sh 'mvn clean install'
+   }
 }
 }
 }

@@ -8,7 +8,7 @@ stages {
   
   }
   
-  
+  }
   }
   stage('Maven Deploy') { 
   steps { 

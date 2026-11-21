@@ -14,7 +14,8 @@ stages {
   steps { 
     sh '''
 	
-	cp /home/uday/Amazon-1/Amazon/Amazon-Web/target/Amazon.war /home/uday/tomcat1/tomcat1/webapps
+	ls -lh Amazon/Amazon-Web/target/
+            cp Amazon/Amazon-Web/target/Amazon.war /home/uday/tomcat1/tomcat1/webapps/
    '''
   }
   
